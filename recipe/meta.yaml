@@ -1,8 +1,8 @@
 {% set name = "jupyterthemes" %}
-{% set version = "0.18.0" %}
+{% set version = "0.18.2" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "bf08b90a115497aea0b55efaea4bac36bb4dfca821188ac4eee675dde7992cc3" %}
+{% set hash = "afbb0817cc8f1c27752d5dda1b2ace09e6680209484022a4db895775c20ff578" %}
 {% set build = 0 %}
 
 package:
