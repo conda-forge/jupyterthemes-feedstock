@@ -1,8 +1,8 @@
 {% set name = "jupyterthemes" %}
-{% set version = "0.18.3" %}
+{% set version = "0.19.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "7cc62193b43b835f43ae2ae183aa79c02deed0deb15e6f395ec56f6da1fefa53" %}
+{% set hash = "22b4a97a0b64cfea9c84cd75444275c71d64f65956f636e276960d5a83357341" %}
 {% set build = 0 %}
 
 package:
@@ -18,7 +18,7 @@ build:
   entry_points:
     - jupyter-theme = jupyterthemes:main
     - jt = jupyterthemes:main
-  number: {{ build }}
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
