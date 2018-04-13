@@ -1,9 +1,8 @@
 {% set name = "jupyterthemes" %}
-{% set version = "0.18.3" %}
+{% set version = "0.19.1" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "7cc62193b43b835f43ae2ae183aa79c02deed0deb15e6f395ec56f6da1fefa53" %}
-{% set build = 0 %}
+{% set hash = "7e307c76eadd3f1d7247ef727f26931b50d23b4676e3b88d1e1c1063fa8a0f0a" %}
 
 package:
   name: {{ name|lower }}
@@ -11,20 +10,20 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
   {{ hash_type }}: {{ hash }}
 build:
   noarch: python
   entry_points:
     - jupyter-theme = jupyterthemes:main
     - jt = jupyterthemes:main
-  number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
