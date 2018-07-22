@@ -1,4 +1,4 @@
-{% set version = "0.19.0" %}
+{% set version = "0.19.3" %}
 
 package:
   name: jupyterthemes
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jupyterthemes/jupyterthemes-{{ version }}.tar.gz
-  sha256: 22b4a97a0b64cfea9c84cd75444275c71d64f65956f636e276960d5a83357341
+  sha256: fa507a68f6c045968840940592d2fdde6c1f2229c99a3996d92740530063aa47
 
 build:
   number: 0
