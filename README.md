@@ -14,12 +14,15 @@ Summary: Select and install a Jupyter notebook theme
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/jupyterthemes-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyterthemes-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jupyterthemes-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jupyterthemes-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyterthemes/badges/version.svg)](https://anaconda.org/conda-forge/jupyterthemes)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyterthemes/badges/downloads.svg)](https://anaconda.org/conda-forge/jupyterthemes)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jupyterthemes-green.svg)](https://anaconda.org/conda-forge/jupyterthemes) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jupyterthemes.svg)](https://anaconda.org/conda-forge/jupyterthemes) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyterthemes.svg)](https://anaconda.org/conda-forge/jupyterthemes) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jupyterthemes.svg)](https://anaconda.org/conda-forge/jupyterthemes) |
 
 Installing jupyterthemes
 ========================
